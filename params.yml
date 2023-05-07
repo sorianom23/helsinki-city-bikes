@@ -1,0 +1,10 @@
+data:
+  raw: '../data/raw/helsinki_city_bikes.csv'
+  clean: '../data/clean/data_clean.csv'
+
+scaler:
+  standard_scaler: '../scalers/standard.pkl'
+  min_max: '../scalers/minmax.pkl'
+
+encoder:
+  onehotencoder: '../encoders/onehotencoder.pkl'
